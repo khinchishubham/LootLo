@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Order from "./pages/Order";
 import Placeorder from "./pages/Placeorder";
 import Product from './pages/Product'
+import Footer from './components/Footer'
 
 
 
@@ -33,7 +34,7 @@ function App() {
           
 
         </Routes>
-    
+        <Footer/>
       </div>
     </>
   );
